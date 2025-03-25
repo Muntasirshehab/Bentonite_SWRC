@@ -94,8 +94,11 @@ if st.button("Predict HC"):
     if warnings:
         st.warning("\n".join(warnings))
 
-# Team info
-st.markdown("**Developed by:**  
-Muntasir Shehab, Reza Taherdangkoo, and Christoph Butscher  
+st.markdown("""  
+**Developed by:**  
+Muntasir Shehab*, Reza Taherdangkoo and Christoph Butscher  
+
 **Institution:**  
-TU Bergakademie Freiberg, Institute of Geotechnics")
+TU Bergakademie Freiberg, Institute of Geotechnics  
+Gustav-Zeuner-Str. 1, Freiberg, 09599, Germany  
+""")
